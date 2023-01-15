@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.table {
+  width: 30%;
+  column-count: 50%
+}
+ td {
+  width: 50%;
+  text-align: left;
+}
+.google_play_store{ 
+  padding: 10px; 
+  margin: 10px; 
+  border: 2px solid black; 
+  float: right; 
+  width: 250px; }
+:root {
+  --primary-background: #e1e1e1;
+  --text-color: #121212;
+  --secundary-background: #fff;
+  --theme: #2196f3;
+  --animation-dur: 0.3s;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  padding: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--theme);
+  border-radius: 9px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--primary-background);
+  color: var(--text-color);
+  font-family: "montserrat", sans-serif;
+}
+
+main {
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.txt-center {
+  text-align: center;
+  padding: 6px;
+}
+
+.btn {
+  appearance: none;
+  outline: none;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: var(--theme);
+  color: #fff;
+  font-size: 1.3em;
+  width: 200px;
+  margin: auto;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.pretty-txt {
+  padding: 1.1em;
+  line-height: 1.8;
+}

@@ -1,0 +1,33 @@
+header {
+  background: var(--theme);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.appName {
+  font-family: "cursive-insta";
+}
+
+#title{
+  margin-left: 0.6em;
+}
+
+header > .icon {
+  width: 2em;
+  height: 2em;
+  padding: 0.6em;
+}
+
+.btn-closeQuiz {
+  display: none;
+}
+
+#timer {
+  margin: auto;
+}

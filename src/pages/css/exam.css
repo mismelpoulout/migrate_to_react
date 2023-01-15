@@ -1,0 +1,60 @@
+.option.active {
+  background-color: var(--theme);
+}
+.question-sentence {
+  padding: 0.9em;
+  line-height: 1.6;
+}
+
+.optionsContainer,
+.optionsContainer-postView {
+  padding: 0.9em;
+}
+
+.option:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.option {
+  list-style: none;
+  padding: 0.6em;
+  margin: 0.3em 0.3em;
+
+  transition: 0.3s;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
+
+.option.active {
+  background: var(--theme);
+  color: #fff;
+}
+
+.option.correct {
+  background: green;
+  color: #fff;
+}
+
+.option.wrong {
+  background: #f00;
+  color: #fff;
+}
+
+.questionContainer {
+  box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+  border-radius: 6px;
+}
+
+.questionContainer.exam {
+  margin-top: 3em;
+}
+
+#exam-questions > .questionContainer:first-child > .questionIndex {
+  border: none;
+}
+
+.questionIndex {
+  padding: 0.9em;
+  padding-bottom: 0;
+}

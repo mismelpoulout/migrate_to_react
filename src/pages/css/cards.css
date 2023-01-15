@@ -1,0 +1,51 @@
+.card-mode {
+  color: #fff;
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em;
+  text-shadow: 0 0 3px #000;
+  background-size: cover;
+  background: linear-gradient(0, #0f1a56, #2196f3);
+  background-size: cover;
+  transition: 0.2s;
+}
+.card-mode:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+}
+.comment{
+  padding-left:0.5em ;
+  padding-right:0.5em;
+}
+
+.card-mode > h3 {
+  font-size: 1.6em;
+  padding-bottom: 0.2em;
+}
+
+.cards-mode-container {
+  display: grid;
+  justify-content: center;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+
+.mode-study {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.7)),
+    url("../img/study.jpg");
+}
+
+.mode-play {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.7)),
+    url("../img/play.jpg");
+}
+
+.mode-test {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.7)),
+    url("../img/test.jpg");
+}
+
+.mode-history {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.7)),
+    url("../img/history.jpg");
+}
