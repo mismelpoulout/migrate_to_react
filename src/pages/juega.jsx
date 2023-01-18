@@ -1,7 +1,7 @@
 
 
 
-export default function Juega() {
+export function Juega() {
     return (
         <div className="container">
 

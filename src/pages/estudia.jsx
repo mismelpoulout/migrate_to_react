@@ -9,7 +9,7 @@ import fdemedicina from './icons/fdemedicina.png';
 
 
 
-export default function Estudia(){
+export function Estudia(){
     return(
        <div className="container">
          <section className="layer" id="layer-study">

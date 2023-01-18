@@ -1,31 +1,33 @@
+import { Form } from 'react-router-dom';
 import './css/cards.css';
+import{Routes , Route} from 'react-router-dom'; 
+import {Estudia} from './estudia.jsx';
+import {Juega} from './juega.jsx';
+import {Examen} from './examen.jsx';
+import {Historial} from './historial.jsx';
 
 
 
 
-export default function Main() {
+export default function Main(){
+    
     return (
+        
         <section className="cards-mode-container">
-            <div className="card-mode mode-study trigger-layer" role="button" data-layername="study" data-layertitle="Estudia">
-                <Link to='/estudia'><h3>Estudia</h3></Link>
+            <Routes>
+            <Route path='Estudia' element={<Estudia/>} />
                 <p>Bibliografias: Guias Clinicas Minsal...</p>
-            </div>
-            <div className="card-mode mode-play trigger-layer" role="button" data-layername="play" data-layertitle="Juega">
-                <h3>Juega</h3>
+            <Route path='Estudia' element={<Juega/>} />
                 <p>Juega, aprende y mide</p>
-            </div>
-            <div className="card-mode mode-test trigger-layer" role="button" data-layername="test-mode" data-layertitle="Examen">
-                <h3>Examen</h3>
+            <Route path='Estudia' element={<Examen/>} />
                 <p>
                     Creado para medir conocimiento y destreza
                 </p>
-            </div>
-            <div className="card-mode mode-history trigger-layer" role="button" data-layername="history" data-layertitle="Historial">
-                <h3>Historial</h3>
+            <Route path='Estudia' element={<Historial/>} />
                 <p>
                     Aqui encontraras los resultados de lo que has hecho en esta app
                 </p>
-            </div>
+            </Routes>
         </section>
     );
 }

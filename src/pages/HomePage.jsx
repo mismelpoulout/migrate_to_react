@@ -13,7 +13,7 @@ import './css/layers.css';
 import './css/exam.css';
 import './css/videoPlaylist.css';
 
-import Main from './main';
+import Main from './main.jsx';
 
 export const HomePage = () => {
   return (
@@ -48,4 +48,4 @@ export const HomePage = () => {
     </div>
   );
 };
-export default HomePage
+export default HomePage;

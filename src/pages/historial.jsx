@@ -1,6 +1,7 @@
+import './css/cards.css';
 
 
-export default function Historial () {
+export  function Historial () {
     return (
         <div className="container">
             <section className="layer" id="layer-history">

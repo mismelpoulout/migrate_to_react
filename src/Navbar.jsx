@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './icons/Logo.png';
+import '../src/pages/css/header.css';
 
 
 import './App.css';
@@ -24,7 +25,7 @@ export const Navbar = () => {
 
 	return (
 		<>
-			<header>
+			<header className='header'>
 				
 					<Link to='/'><img className='logo' src={Logo} /></Link>
 					<h1 class="appName" id="title">Medstudio</h1>
@@ -39,7 +40,7 @@ export const Navbar = () => {
 						</button>
 					</div>
 				) : (
-					<nav>
+					<nav className='user'>
 						<Link to='/login'>Iniciar sesión</Link>
 						<Link to='/register'>Registrarse</Link>
 					</nav>

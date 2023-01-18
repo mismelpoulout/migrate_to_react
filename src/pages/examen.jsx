@@ -1,7 +1,7 @@
 
 
 
-export default function Examen(){
+export function Examen(){
     return(
        <div className="container">
         <section className="layer" id="layer-test-mode">
